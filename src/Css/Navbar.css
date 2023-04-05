@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.navbar--section--left {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar--section--left p {
+  margin: 0 1rem;
+}
+
+.navbar--section--right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.navbar--section--right p {
+  margin: 0 0.5rem;
+}
