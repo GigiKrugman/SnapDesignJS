@@ -20,7 +20,7 @@ export default function Navbar() {
       </div>
       <div className="navbar--section--right">
         <p>Login</p>
-        <p>Register</p>
+        <p className="register-btn">Register</p>
       </div>
     </nav>
   );

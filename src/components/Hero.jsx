@@ -5,7 +5,7 @@ import { ReactComponent as ClientMeet } from "../assets/client-meet.svg";
 import { ReactComponent as ClientMaker } from "../assets/client-maker.svg";
 export default function Hero() {
   return (
-    <div className="Hero--section">
+    <div className="hero--section">
       <div className="hero--section--left">
         <h1>Make Remote Work</h1>
         <h2>
@@ -15,13 +15,13 @@ export default function Hero() {
         <a>Learn more</a>
         <div className="hero--section--svg">
           <ClientDatabiz />
-          {/* /* <AudioPhile /> */}
+          {/* <AudioPhile /> */}
           <ClientMeet />
           <ClientMaker />
         </div>
-        <div className="hero--section--right">
-          <img src="src/assets/image-hero-desktop.png" />
-        </div>
+      </div>
+      <div className="hero--section--right">
+        <img src="src/assets/image-hero-desktop.png" className="hero--image" />
       </div>
     </div>
   );
